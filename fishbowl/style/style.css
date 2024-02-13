@@ -85,3 +85,89 @@
     display: flex;  
     z-index: 2;
 }
+
+.aleta{
+    animation: fishAnimation 20s;
+    margin-top: 290px;
+    margin-left: 790px;
+    width: 100px;
+    height: 100px;
+    border-radius: 23% 78% 39% 10% / 93% 91% 0% 10%;
+    background-color: rgb(221, 105, 27);
+    position: fixed;
+    display: flex;  
+    z-index: 3;
+}
+
+
+.aleta_2{
+    animation: fishAnimation 20s;
+    margin-top: 400px;
+    margin-left: 790px;
+    width: 100px;
+    height: 100px;
+    border-radius: 58% 34% 100% 12% / 58% 11% 85% 53%;
+    background-color: rgb(221, 105, 27);
+    position: fixed;
+    display: flex;  
+    z-index: 3;
+}
+
+
+.cuerpo{
+    animation: fishAnimation 20s;
+    margin-top: 305px;
+    margin-left: 740px;
+    width: 190px;
+    height: 190px;
+    border-radius: 0% 100% 37% 87% / 22% 86% 33% 92% ;
+    background-color: rgb(255, 102, 0);
+    position: fixed;
+    display: flex;  
+    z-index: 4;
+    transform: rotate(-45deg); /* Agrega esta línea para la rotación */
+}
+
+.cola{
+    animation: fishAnimation 20s;
+    margin-top: 305px;
+    margin-left: 600px;
+    width: 100px;
+    height: 100px;
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100% ;
+    background-color: rgb(255, 102, 0);
+    position: fixed;
+    display: flex;  
+    z-index: 4;
+    transform: rotate(-5deg);
+}
+
+.cola_2{
+    animation: fishAnimation 20s;
+    margin-top: 390px;
+    margin-left: 600px;
+    width: 100px;
+    height: 100px;
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100% ;
+    background-color: rgb(255, 102, 0);
+    position: fixed;
+    display: flex;  
+    z-index: 4;
+    transform: rotate(100deg);
+}
+
+.eye{
+    animation: fishAnimation 20s;
+    margin-top: 350px;
+    margin-left: 870px;
+    border: 5px solid white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50% ;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    display: flex;  
+    z-index: 5;
+}
+
+
