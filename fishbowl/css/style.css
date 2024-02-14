@@ -1,0 +1,253 @@
+.mainCont {
+    width: 1800px;
+    height: 930px;
+    background-color: rgb(130, 188, 55);
+    position: relative;
+    display: flex;
+}
+
+.house_ground {
+    width: 1800px;
+    height: 100px;
+    background-color: rgb(66, 53, 17);
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    margin-top: 830px;
+}
+
+.ground_line_1 {
+    width: 1800px;
+    height: 5px;
+    background-color: rgb(4, 4, 3);
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    margin-top: 830px;
+}
+
+.fishbowl_base {
+    width: 1400px;
+    height: 100px;
+    border-radius: 5% 5% 10% 10% / 10% 10% 53% 53%;
+    background-color: rgb(54, 64, 66);
+    margin-top: 750px;
+    margin-left: 200px;
+    border: 10px solid rgb(87, 83, 83);
+    position: fixed;
+    display: flex;
+    z-index: 2;
+}
+
+.randomSquare {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(54, 64, 66);
+    position: fixed;
+    display: flex;
+    z-index: 2;
+    margin-top: 600px;
+    margin-left: 1600px;
+}
+
+.half_fishbowl {
+    width: 1300px;
+    height: 275px;
+    background-color: rgba(0, 205, 246, 0.523);
+    margin-top: 200px;
+    margin-left: 260px;
+    position: fixed;
+    display: flex;
+    z-index: 2;
+
+}
+
+.half_fishbowl_2 {
+    width: 1300px;
+    height: 275px;
+    background-color: rgba(27, 194, 227, 0.593);
+    margin-top: 475px;
+    margin-left: 260px;
+    position: fixed;
+    display: flex;
+    z-index: 2;
+}
+
+.fishbowl_basetop {
+    width: 1400px;
+    height: 100px;
+    border-radius: 20% 20% 0% 0% / 22% 22% 0% 0%;
+    background-color: rgb(54, 64, 66);
+    margin-top: 81px;
+    margin-left: 200px;
+    border: 10px solid rgb(87, 83, 83);
+    position: fixed;
+    display: flex;
+    z-index: 2;
+}
+
+.aleta {
+    margin-top: 25px;
+    margin-left: 170px;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 23% 78% 39% 10% / 93% 91% 0% 10%;
+    background-color: rgb(221, 105, 27);
+    position: fixed;
+    display: flex;
+    z-index: 3;
+}
+
+
+.aleta_2 {
+    animation: fishAnimation 20s;
+    width: 100px;
+    height: 100px;
+    border-radius: 58% 34% 100% 12% / 58% 11% 85% 53%;
+    background-color: rgb(221, 105, 27);
+    position: fixed;
+    display: flex;
+    z-index: 3;
+    margin-top: 170px;
+    margin-left: 170px;
+
+
+}
+
+
+.cuerpo {
+    margin-top: 50px;
+    margin-left: 150px;
+
+
+    animation: fishAnimation 20s;
+    width: 190px;
+    height: 190px;
+    border-radius: 0% 100% 37% 87% / 22% 86% 33% 92%;
+    background-color: rgb(255, 102, 0);
+    position: fixed;
+    display: flex;
+    z-index: 4;
+    transform: rotate(-45deg);
+    /* Agrega esta línea para la rotación */
+}
+
+.cola {
+    animation: fishAnimation 20s;
+    width: 100px;
+    height: 100px;
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+    background-color: rgb(255, 102, 0);
+    position: fixed;
+    display: flex;
+    z-index: 4;
+    transform: rotate(-5deg);
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.cola_2 {
+    animation: fishAnimation 20s;
+    width: 100px;
+    height: 100px;
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+    background-color: rgb(255, 102, 0);
+    position: fixed;
+    display: flex;
+    z-index: 4;
+    transform: rotate(100deg);
+    margin-top: 130px;
+    margin-left: 10px;
+}
+
+.eye {
+    animation: fishAnimation 20s;
+    border: 5px solid white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    display: flex;
+    z-index: 5;
+    margin-top: 120px;
+    margin-left: 300px;
+}
+
+.fish_container {
+    animation: fishMovement 20s;
+    width: 380px;
+    height: 280px;
+    position: fixed;
+    display: flex;
+    z-index: 4;
+    margin-top: 350px;
+    margin-left: 400px;
+}
+
+@keyframes fishMovement {
+    0% {
+        transform: scale(1)translate(0, 0);
+    }
+
+    20% {
+        transform: scale(1.15)translate(100px, -100px);
+    }
+
+    40% {
+        transform: scale(0.75)translate(400px, -100px);
+    }
+
+    90% {
+        transform: scale(1)translate(600px);
+
+    }
+
+}
+
+.sand {
+    width: 1300px;
+    height: 70px;
+    background-color: rgb(221, 189, 133);
+    margin-top: 680px;
+    margin-left: 260px;
+    position: fixed;
+    display: flex;
+    z-index: 4;
+}
+
+.bubble {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    display: flex;
+    z-index: 4;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.141);
+    border: 5px solid rgba(182, 235, 240, 0.638);
+    animation: bubbleAnimation 5s ease-in-out infinite;
+    margin-top: 350px;
+    margin-left: 800px;
+}
+
+@keyframes bubbleAnimation {
+
+    10% {
+        border-radius: 40% 30% 68% 10% / 39% 10% 42% 34%;
+    }
+
+    50% {
+        border-radius: 62% 30% 32% 42% / 32% 48% 17% 40%;
+    }
+
+    80% {
+        transform: translate(100px, -100px);
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
